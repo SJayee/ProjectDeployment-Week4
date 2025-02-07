@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+
+body {
+  width: 1430px;
+  border: 15px solid gold;
+  padding: 50px;
+  margin: 10px;
+}
+
+    h1 {
+  border: 2px solid gold;
+  border-radius: 12px;
+  padding: 8px;
+  color: gold;
+  text-shadow: 2px 2px 4px #00000073;
+}
+h2 {
+  border: 2px solid gold;
+  border-radius: 12px;
+  padding: 7px;
+}
+  body {
+    background-color: gold
+    opacity: 0.5;
+  } /* Background images or colours do not work. Continue to check it out*/
+    .pattern {
+      font-size:115%;
+      color:gold;
+      border-right: 7px solid gold;
+  background-color: rgb(15, 15, 15); 
+  border-radius: 12px;
+  padding: 7px;
+  padding-left: 15px
+    }
+
+.pstyles {
+  border: 2px solid black;
+  outline: gold solid 5px;
+  margin: auto;  
+  padding: 10px;
+}
+    /* Gold text looks nice but is quite light. Alternative? */
+
+.navbar{font-family: Serif; text-align: center; font-size: 25px;}
+li{list-style: none; display: inline-block;}
+li a{color: black; font-weight: bold; margin-right:30px;}
+
+.navbar a:hover {
+  background-color: #000000;
+  color: rgb(255, 208, 0);
+}
+     </style>
+</head>
+
+<body background-image:"bg.jpg"> 
+ 
+<h1 style="font-size:300%;font-family:serif;text-align:center;">Totes & Tees Hub</h1>
+<h2 style="background-color:gold;font-family:times new roman;font-size:200%;text-align:center;">Help Us Serve You Best!</h2>
+<button type="button" onclick="alert('Welcome To Totes & Tees Hub!')">Click Me!</button>
+
+<nav class="navbar" text-align:center>
+  <ul>
+  <li><a href="home.index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="products.html">Products</a></li>
+  </ul>
+  </nav>
+  
+<br> <br>
+<p class="pstyles" style="font-size:125%;">Follow through with this questionnaire to enable Totes and Tees Hub know the products and services that our customers love and prefer.<br><br> This questionnaire will provide you with a series of questions and options for you to pick through all based on your <strong>personal preferences.</strong></p>
+<br>
+
+<fieldset>
+    <legend>Questions and Input:</legend>
+    <fieldset>
+    <p class="pattern" style="font-size:130%; width: 15%;"> Participant Information </p>
+<p><b>Input Participant Information</b></p>
+<form target="self" method="post" autocomplete="on" novalidate>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" autofocus><br>
+    <label for="sname">Surname:</label><br>
+    <input type="text" id="sname" name="sname"><br>
+   
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="tel">Telephone No.</label><br>
+    <input type="tel" id="tel" name="tel">
+    </fieldset>
+  </form>
+  
+
+  <p class="pattern" style=" width: 23%;"><b>How Do You Prefer To Recieve Services?</b></p>
+  <form>
+    <input type="radio" id="Home Delivery" name="package_collection" value="Home Delivery">
+    <label for="Home Delivery">Home Delivery</label><br>
+    <input type="radio" id="Personal Pick-Up" name="package_collection" value="Personal Pick-Up">
+    <label for="Personal Pick-Up">Personal Pick-Up</label><br>
+  </form>
+
+  <p class="pattern" style=" width: 29%;"><b>Which Of These Products Do You Personally Use?</b></p>
+  <p class="pstyles" style="font-family:serif"><strong>Note: Totes & Tees Hub does not yet offer some of the services listed here.</strong></p>
+  <br>
+  <form>
+    <input type="checkbox" id="product1" name="product1" vaue="Totebag">
+    <label for="product1">Totebag</label><br>
+    <input type="checkbox" id="product2" name="product2" value="Shirt(Polo)">
+    <label for="product2">Shirt (Polo)</label><br>
+    <input type="checkbox" id="product3" name="product3" value="Face Cap">
+    <label for="product3">Face Cap</label><br>
+    <input type="checkbox" id="product4" name="product4" value="Scrunchies">
+    <label for="product4">Scrunchies</label><br>
+    <input type="checkbox" id="product5" name="product5" value="Drawstring Bag">
+    <label for="product5">Drawstring Bag</label><br>
+    <input type="checkbox" id="product6" name="product6" value="Fanny Pack">
+    <label for="product6">Fanny Pack</label><br>
+    <input type="checkbox" id="product7" name="product7" value="Laptop Bag">
+    <label for="product7">Laptop Bag</label><br>
+    <input type="checkbox" id="product8" name="product8" value="Backpack">
+    <label for="product8">Backpack</label><br>
+    <input type="checkbox" id="product9" name="product9" value="Hand Bag">
+    <label for="product9">Hand Bag</label><br>
+    <input type="checkbox" id="product10" name="product10" value="Drawstring Totebag">
+    <label for="product10">Drawstring Totebag</label><br>
+    <input type="checkbox" id="product11" name="product11" value="Mini Totebag">
+    <label for="product11">Mini Totebag</label><br>
+  </form>
+
+  <p class="pattern" style=" width: 27%;"><b>Which Of The Products We Offer Do You Use?</b></p>
+  <p class="pstyles" style="font-family:serif">Select the option(s) which apply to you.<br><br> <strong>Note: You do not have to have ordered them from us.</strong></p>
+  <br>
+  <form>
+    <input type="checkbox" id="product1" name="product1" value="Totebag">
+    <label for="product1">Totebag</label><br>
+    <input type="checkbox" id="product2" name="product2" value="Shirt(Polo)">
+    <label for="product2">Shirt (Polo)</label><br>
+    <input type="checkbox" id="product3" name="product3" value="Face Cap">
+    <label for="product3">Face Cap</label><br>
+    <input type="checkbox" id="product5" name="product5" value="Drawstring Bag">
+    <label for="product5">Drawstring Bag</label><br>
+    <input type="checkbox" id="product6" name="product6" value="Fanny Pack">
+    <label for="product6">Fanny Pack</label><br>
+    <input type="checkbox" id="product7" name="product7" value="Laptop Bag">
+    <label for="product7">Laptop Bag</label><br>
+    <input type="checkbox" id="product8" name="product8" value="Backpack">
+    <label for="product8">Backpack</label><br>
+    <input type="checkbox" id="product10" name="product10" value="Drawstring Totebag">
+    <label for="product10">Drawstring Totebag</label><br>
+    <input type="checkbox" id="product11" name="product11" value="Mini Totebag">
+    <label for="product11">Mini Totebag</label><br>
+
+    <h3 style="text-align:center;font-size:180%;background-color:gold;padding: 7px;border-radius: 8px;">Are You One Of Our Customers?</h3>
+    <form>
+        <input type="radio" id="option1" name="option1" value="Yes">
+        <label for=option1>Yes</label><BR>
+        <input type="radio" id="option2" name="option2" value="No">
+        <label for=option2>No</label><BR>
+    </form>
+
+    <p class="pattern" style=" width: 29%;">In What Year Did You Discover Totes and Tees Hub?</p>
+    <p class="pstyles">Totes & Tees Hub is a brand that has been operating for a few yeas now, when did you find us?</p>
+    <br>
+    <label for="years">Select a year:</label>
+    <select id="years" name="years">
+      <option value="2021">2021</option>
+      <option value="2022">2022</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+    </select>
+    
+
+    <p class="pattern" style=" width: 40%;"><b>Which Of These These Products Have You Ordered From Us Before?</b></p>
+    <p class="pstyles" style="font-family:serif">Select the option(s) which apply to you.</p>
+   <br>
+    <form>
+      <input type="checkbox" id="product1" name="product1" value="Totebag">
+      <label for="product1">Totebag</label><br>
+      <input type="checkbox" id="product2" name="product2" value="Shirt(Polo)">
+      <label for="product2">Shirt (Polo)</label><br>
+      <input type="checkbox" id="product3" name="product3" value="Face Cap">
+      <label for="product3">Face Cap</label><br>
+      <input type="checkbox" id="product5" name="product5" value="Drawstring Bag">
+      <label for="product5">Drawstring Bag</label><br>
+      <input type="checkbox" id="product6" name="product6" value="Fanny Pack">
+      <label for="product6">Fanny Pack</label><br>
+      <input type="checkbox" id="product7" name="product7" value="Laptop Bag">
+      <label for="product7">Laptop Bag</label><br>
+      <input type="checkbox" id="product8" name="product8" value="Backpack">
+      <label for="product8">Backpack</label><br>
+      <input type="checkbox" id="product10" name="product10" value="Drawstring Totebag">
+      <label for="product10">Drawstring Totebag</label><br>
+      <input type="checkbox" id="product11" name="product11" value="Mini Totebag">
+      <label for="product11">Mini Totebag</label><br>
+  <br><br>
+
+  <p class="pattern" style=" width: 24%;"><b>How Much Do Yo Like Totes & Tees Hub?</b></p> 
+  <p class="pstyles">Please leave an honest review of how much you like Totes & Tees on a general scale. This includes not only the products and services that we provide, but also the overall look and presentation of out brand.</p> 
+  <br>
+  <form
+  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range"  id="a" name="a" value="10" min="0" max="50">10 
+  <output name="x" for="a b"></output>
+  <br><br>
+</form>
+
+  <p class="pattern" style=" width: 22%;"><b>Anything You Would Like To Tell Us?</b></p> 
+   <form>
+    <p class="pstyles">Leave behind any thoughts or sugesstions that you might have for Totes & Tees Hub.<br>These could include products that you would like to see from us or even products or services of ours that you think could improve.</p>
+    <br>
+    <textarea name="message" style="width:400px; height:200px;" placeholder="Text In Here."></textarea>
+    <br><br>
+  </form>
+
+ 
+<br>
+<p> <b>~</b>Please select the date on which you completed and submitted this questionnaire.</p>
+
+<form>
+  <label for="date">Submssion date:</label>
+  <input type="date" id="date" name="Submssion date">
+</form>
+</fieldset>
+<br>
+
+      <form>
+      <input type="submit" value="Submit Response">
+      <input type="reset" value="Reset Questionnaire">
+    </form>
+
+
+</body>
+</html>
